@@ -1,15 +1,11 @@
-const { Comment, Like, Post, Profile, User } = require("./models/index");
+ const { Comment, Like, Post, Profile, User } = require('./models/index')
 
-// Define your associations here
-
-
-
-
+//TODO figure out why associations don't get set in this file
 
 module.exports = {
-    Comment,
-    Like,
-    Post,
-    Profile,
-    User
+	Comment,
+	Like,
+	Post,
+	Profile,
+	User
 }
